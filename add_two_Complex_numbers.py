@@ -1,0 +1,7 @@
+x=int(input("enter real part of number"))
+y=int(input("enter complex part of number"))
+m=complex(x,y)
+z=int(input("enter real part of number"))
+w=int(input("enter complex part of number"))
+n=complex(z,w)
+print("sum =",m+n)

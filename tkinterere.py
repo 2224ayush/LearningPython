@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.geometry("700x700")
+root.title("hello world")
+mylabe11=Label(root,text="hello students",background="pink")
+mylabe12=Label(root,text="welcome",background="green")
+mylabe11.pack(padx=50,pady=100)
+mylabe12.pack(pady=100)
+mylabe12.pack(padx=120)
+root.mainloop()
